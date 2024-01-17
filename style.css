@@ -10,7 +10,7 @@ section {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url("Images/Images.png") no-repeat;
+    background: url("Images/Image.png") no-repeat;
     background-size: cover;
 }
 
