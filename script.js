@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
     var mins = date.getMinutes();
     var secs = date.getSeconds();
     // console.log("hours" + hours + " mins" + mins + " secs" + secs);
-    hr = hr<10 ? hr : hr;
-    mins = mins<10 ? mins : mins;
-    secs = secs<10 ? secs : secs;
+    hr = hr<10 ? "0" + hr : hr;
+    mins = mins<10 ? "0" + mins : mins;
+    secs = secs<10 ? "0" + secs : secs;
      time.innerHTML = `${hr}:${mins}:${secs}`;
-     formadtime.innerHTML = hr>12 ? "AM" : "PM";
+     formadtime.innerHTML = hr>12 ? "PM" : "AM";
   };
